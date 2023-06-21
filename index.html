@@ -1,697 +1,645 @@
- <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <!--=============== FAVICON ===============-->
-        <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
 
-        <!--=============== REMIXICONS ===============-->
-        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
-        
-        <!--=============== SWIPER CSS ===============-->
-        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <!--=============== REMIXICONS ===============-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
 
-        <!--=============== CSS ===============-->
-        <link rel="stylesheet" href="assets/css/styles.css">
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css">
 
-        <title>Personal Portfolio Bhavik Sharma</title>
-    </head>
-    <body>
-        <!--==================== HEADER ====================-->
-        <header class="header" id="header">
-            <nav class="nav container" id="">
-                <a href="#" class="nav__logo">
-                    Bhavik Sharma
-                </a>
+    <title>Personal Portfolio Bhavik Sharma</title>
+</head>
+<body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <nav class="nav container" id="">
+            <a href="https://drive.google.com/file/d/1NVkk_HuHNUIkhnlKk7eDr0nhhD1mZN4y/view?usp=drive_link" class="nav__logo">
+                Bhavik Sharma
+            </a>
 
-                <div class="nav__menu" id="nav-menu">
-                    <ul class="nav__list grid">
-                        <li class="nav__item">
-                            <a href="#home" class="nav__link">
-                                <i class="ri-home-3-line"></i> Home
-                            </a>
-                        </li>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list grid">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link">
+                            <i class="ri-home-3-line"></i> Home
+                        </a>
+                    </li>
 
-                        <li class="nav__item">
-                            <a href="#skills" class="nav__link active-link">
-                                <i class="ri-trophy-line"></i> Skills
-                            </a>
-                        </li>
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link active-link">
+                            <i class="ri-trophy-line"></i> Skills
+                        </a>
+                    </li>
 
-                        <li class="nav__item">
-                            <a href="#qualification" class="nav__link">
-                                <i class="ri-book-open-line"></i> Qualification
-                            </a>
-                        </li>
+                    <li class="nav__item">
+                        <a href="#qualification" class="nav__link">
+                            <i class="ri-book-open-line"></i> Qualification
+                        </a>
+                    </li>
 
-                        <li class="nav__item">
-                            <a href="#services" class="nav__link">
-                                <i class="ri-briefcase-line"></i> Services
-                            </a>
-                        </li>
+                    <li class="nav__item">
+                        <a href="#services" class="nav__link">
+                            <i class="ri-briefcase-line"></i> Services
+                        </a>
+                    </li>
 
-                        <li class="nav__item">
-                            <a href="#Projects" class="nav__link">
-                                <i class="ri-gamepad-line"></i> Projects
-                            </a>
-                        </li>
+                    <li class="nav__item">
+                        <a href="#Projects" class="nav__link">
+                            <i class="ri-gamepad-line"></i> Projects
+                        </a>
+                    </li>
 
-                        <li class="nav__item">
-                            <a href="#Contact" class="nav__link">
-                                <i class="ri-chat-1-line"></i> Contact
-                            </a>
-                        </li>
+                    <li class="nav__item">
+                        <a href="#Contacts" class="nav__link">
+                            <i class="ri-chat-1-line"></i> Contact
+                        </a>
+                    </li>
+                </ul>
+                <!-- Close button -->
+                <div class="nav__close" id="nav-close">
+                    <i class="ri-close-line"></i>
+                </div>
+            </div>
+
+            <div class="nav__buttons">
+                <!-- Theme Change Button-->
+                <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+                <!-- Toggle Button-->
+                <div class="nav__toggle" id="nav-Toggle">
+                    <i class="ri-menu-4-line"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+        <!--==================== HOME ====================-->
+        <section class="home section" id="home">
+             <div class="home__container container grid section__border">
+                <div class="home__data grid">
+                    <h1 class="home__title">
+                        Hi, I'm Bhavik Sharma <br>
+                        Software Developer <br>
+                    </h1>
+
+                    <div class="home__blob grid">
+                        <div class="home__perfil">
+                            <img src="assets/img/Bhavik.jpeg" alt="home perfil">
+                        </div>
+
+                        <img src="assets/img/shape-wawes.svg" alt="" class="home__shape-wawes"> 
+                        <img src="assets/img/shape-circle.svg" alt="" class="home__shape-circle">
+                    </div>
+
+                    <ul class="home__social">
+                        <a href="https://www.linkedin.com/in/bhavik-sharma-430b21244" target="_blank" class="home__social-link">
+                            <i class="ri-linkedin-box-line"></i>
+                        </a>
+
+                        <a href="https://github.com/Bhavik-1025" target="_blank" class="home__social-link">
+                            <i class="ri-github-fill"></i>
+                        </a>
+
+                        <a href="#" target="_blank" class="home__social-link">
+                            <i class="ri-instagram-line"></i>
+                        </a>
                     </ul>
-                    <!-- Close button -->
-                    <div class="nav__close" id="nav-close">
-                        <i class="ri-close-line"></i>
-                    </div>
                 </div>
 
-                <div class="nav__buttons">
-                    <!-- Theme Change Button-->
-                    <i class="ri-moon-line change-theme" id="theme-button"></i>
-
-                    <!-- Toggle Button-->
-                    <div class="nav__toggle" id="nav-Toggle">
-                        <i class="ri-menu-4-line"></i>
-                    </div>
-                </div>
-            </nav>
-        </header>
-
-        <!--==================== MAIN ====================-->
-        <main class="main">
-            <!--==================== HOME ====================-->
-            <section class="home section" id="home">
-                 <div class="home__container container grid section__border">
-                    <div class="home__data grid">
-                        <h1 class="home__title">
-                            Hi, I'm Bhavik Sharma <br>
-                            Software Developer <br>
-                        </h1>
-
-                        <div class="home__blob grid">
-                            <div class="home__perfil">
-                                <img src="assets/img/Bhavik.jpeg" alt="home perfil">
-                            </div>
-
-                            <img src="assets/img/shape-wawes.svg" alt="" class="home__shape-wawes"> 
-                            <img src="assets/img/shape-circle.svg" alt="" class="home__shape-circle">
-                        </div>
-
-                        <ul class="home__social">
-                            <a href="https://www.linkedin.com/in/bhavik-sharma-430b21244" target="_blank" class="home__social-link">
-                                <i class="ri-linkedin-box-line"></i>
-                            </a>
-
-                            <a href="https://github.com/Bhavik-1025" target="_blank" class="home__social-link">
-                                <i class="ri-github-fill"></i>
-                            </a>
-
-                            <a href="#" target="_blank" class="home__social-link">
-                                <i class="ri-instagram-line"></i>
-                            </a>
-                        </ul>
-                    </div>
-
-                    <!-- ======================= HOME INFO 1 ======================== -->
-                        <div class="home__info">
-                            <div>
-                                <h3 class="home__info-title">
-                                    BIOGRAPHY 
-                                </h3>
-
-                                <p class="home__info-description">
-                                    Highly Enthusiastic to work as a software developer in a leading IT firm where I can unleash my Interpersonal skill and Technical skill to contribute to the growth of both the company and my own professional journey.
-                                </p>
-                            </div>
-
-                            <div>
-                                <h3 class="home__info-title">
-                                    CONTACT
-                                </h3>
-
-                                <p class="home__info-description">
-                                    Shradhanand Bal Asharam , Indore M.P <br>
-                                    bhavik10sharma@gmail.com <br>
-                                    +91 7974398214
-                                </p>
-                            </div>
-                            <div>
-                                <h3 class="home__info-title">
-                                    SERVICES
-                                </h3>
-
-                                <p class="home__info-description">
-                                    Java Developer <br>
-                                    Software Developer <br>
-                                    Project Manager <br>                                    
-                                </p>
-                            </div>
-                        </div>
-
-                    <!-- ================== HOME INFO 2 ============================ -->
+                <!-- ======================= HOME INFO 1 ======================== -->
                     <div class="home__info">
                         <div>
                             <h3 class="home__info-title">
-                                Training and Internship
+                                BIOGRAPHY 
                             </h3>
 
                             <p class="home__info-description">
-                                Nothing Much Just timePass
+                                Highly Enthusiastic to work as a software developer in a leading IT firm where I can unleash my Interpersonal skill and Technical skill to contribute to the growth of both the company and my own professional journey.
+                            </p>
+                        </div>
+
+                        <div>
+                            <h3 class="home__info-title">
+                                CONTACT
+                            </h3>
+
+                            <p class="home__info-description">
+                                Shradhanand Bal Asharam , Indore M.P <br>
+                                bhavik10sharma@gmail.com <br>
+                                +91 7974398214
                             </p>
                         </div>
                         <div>
                             <h3 class="home__info-title">
-                                Projects
+                                SERVICES
                             </h3>
 
                             <p class="home__info-description">
-                                15 Projects
-                            </p>
-                        </div>
-                        <div>
-                            <h3 class="home__info-title">
-                                Hobbies
-                            </h3>
-
-                            <p class="home__info-description">
-                                DANCE <br>
-                                COOKING <br>
+                                Java Developer <br>
+                                Software Developer <br>
+                                Project Manager <br>                                    
                             </p>
                         </div>
                     </div>
-                 </div>
-            </section>
 
-            <!--==================== SKILLS ====================-->
-            <section class="skills section" id="skills">
-                <h2 class="section__title">Skills</h2>
-                <span class="section__subtitle">My favorite Skills</span>
-
-                <div class="skills__container container grid section__border">
-                    <!--=============== Skills 1 ================-->
-                    <div class="skills__content">
-                        <h3 class="skills__title">
-                            <i class="ri-braces-line"></i> Frontend Developer
+                <!-- ================== HOME INFO 2 ============================ -->
+                <div class="home__info">
+                    <div>
+                        <h3 class="home__info-title">
+                            Training and Internship
                         </h3>
 
-                        <div class="skills__info">
-                            <div class="skills__data">
-                                <div class="skills__blob">
-                                    <img src="assets/img/html-1.svg" alt="Skills Image">
-                                </div>
+                        <p class="home__info-description">
+                            AWS cloud Training <br>
+                            Agile Virtual Experience
 
-                                <h3 class="skills__name">HTML</h3>
-                                <span class="skills__subtitle">Intermediate</span>
-                            </div>
-
-                            <div class="skills__data">
-                                <div class="skills__blob">
-                                    <img src="assets/img/css-3.svg" alt="Skills Image">
-                                </div>
-
-                                <h3 class="skills__name">CSS</h3>
-                                <span class="skills__subtitle">Intermediate</span>
-                            </div>
-
-                            <div class="skills__data">
-                                <div class="skills__blob">
-                                    <img src="assets/img/logo-javascript.svg" alt="Skills Image">
-                                </div>
-
-                                <h3 class="skills__name">JavaScript</h3>
-                                <span class="skills__subtitle">Intermediate</span>
-                            </div>
-
-                            <div class="skills__data">
-                                <div class="skills__blob">
-                                    <img src="assets/img/git-icon.svg" alt="Skills Image">
-                                </div>
-
-                                <h3 class="skills__name">Git</h3>
-                                <span class="skills__subtitle"></span>
-                            </div>
-
-                            <div class="skills__data">
-                                <div class="skills__blob">
-                                    <img src="assets/img/Bootstrap_(front-end_framework)-Logo.wine.svg" alt="Skills Image">
-                                </div>
-
-                                <h3 class="skills__name">BootStrap</h3>
-                                <span class="skills__subtitle">Intermediate</span>
-                            </div>
-
-                            <div class="skills__data">
-                                <div class="skills__blob">
-                                    <img src="assets/img/Tailwind.png" alt="Skills Image">
-                                </div>
-
-                                <h3 class="skills__name">Tailwind</h3>
-                                <span class="skills__subtitle">Beginner</span>
-                            </div>
-                        </div>
-                    </div>
-                    <!--=============== Skills 2 ================-->
-                    <div class="skills__content">
-                        <h3 class="skills__title">
-                            <i class="ri-lightbulb-flash-line"></i> Backend Developer
-                        </h3>
-
-                        <div class="skills__info">
-                            <div class="skills__data">
-                                <div class="skills__blob">
-                                    <img src="assets/img/c language.png" alt="Skills Image">
-                                </div>
-
-                                <h3 class="skills__name">C</h3>
-                                <span class="skills__subtitle">Intermediate</span>
-                            </div>
-
-                            <div class="skills__data">
-                                <div class="skills__blob">
-                                    <img src="assets/img/cpp.png" alt="Skills Image">
-                                </div>
-
-                                <h3 class="skills__name">C++</h3>
-                                <span class="skills__subtitle">Intermediate</span>
-                            </div>
-
-                            <div class="skills__data">
-                                <div class="skills__blob">
-                                    <img src="assets/img/java.PNG" alt="Skills Image">
-                                </div>
-
-                                <h3 class="skills__name">JAVA</h3>
-                                <span class="skills__subtitle">Advanced</span>
-                            </div>
-
-                            <div class="skills__data">
-                                <div class="skills__blob">
-                                    <img src="assets/img/mysql.png" alt="Skills Image">
-                                </div>
-
-                                <h3 class="skills__name">MySQL</h3>
-                                <span class="skills__subtitle">Intermediate</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <!--==================== QUALIFICATION ====================-->
-            <section class="qualification section" id="qualification">
-                <h2 class="section__title">Qualification</h2>
-                <span class="section__subtitle">Experience & Education</span>
-
-                <div class="qualification__container container grid section__border">
-                    <!--========================= Qualification 1 =========================-->
-                    <div class="qualification__content">
-                        <h3 class="qualification__title">
-                            <i class="ri-edit-2-line"></i> Education
-                        </h3>
- 
-                        <div class="qualification__info">
-                            <div>
-                                <h3 class="qualification__name">
-                                    B.tech in Computer Science Engineering
-                                </h3>
-                                <span class="qualification__place">Acropolis Institute of Technology and Research</span>
-                                <span class="qualification__year">2024</span>
-                                <span class="qualification__marks">Score: 7.9 CGPA (6th SEM)</span>
-                            </div>
-                        </div>
-
-                        <div class="qualification__info">
-                            <div>
-                                <h3 class="qualification__name">
-                                    Higher Secondary School (12th)
-                                </h3>
-                                <span class="qualification__place">Bal Niketan MP-BOARD Indore M.P</span>
-                                <span class="qualification__year">2020</span>
-                                <span class="qualification__marks">Score: 75.2%</span>
-                            </div>
-                        </div>
-
-                        <div class="qualification__info">
-                            <div>
-                                <h3 class="qualification__name">
-                                    Senior Secondary School (10th)
-                                </h3>
-                                <span class="qualification__place">Shree Vaishnav Academy CBSE Indore M.P</span>
-                                <span class="qualification__year">2018</span>
-                                <span class="qualification__marks">Score: 63%</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <img src="assets/img/shape-circle.svg" alt="qualification image" class="qualification__image">
-            </section>
-
-            <!--==================== SERVICES ====================-->
-            <section class="services section" id="services">
-                <h2 class="section__title">Services</h2>
-                <span class="section__subtitle">What i offer</span>
-
-                <div class="services__container container grid section__border">
-                    <div class="services__card">
-                        <i class="ri-layout-4-line"></i>
-
-                        <h2 class="services__title">
-                            Java Developer
-                        </h2>
-                        <p class="services__Description">
-                            Work on various Java Projects using JDBC, SERVLET and create various java web Application
                         </p>
-                        <div class="services__border">
-
-                        </div>
                     </div>
-                </div>
-            </section>
-
-            <!--==================== PROJECTS ====================-->
-            <section class="projects section" id="Projects">
-                <h2 class="section__title">Projects</h2>
-                <span class="section__subtitle">Most recent Projects</span>
-
-                <div class="container section__border">
-                    <div class="projects__container swiper">
-                        <div class="swiper-wrapper">
-                            <!-- =====================Project 1 ==================== -->
-                            <div class="projects__content swiper-slide">
-                                <img src="assets/img/project1.jpg" alt="Projects image" class="projects__img">
-                                
-                                <div>
-                                    <span class="projects__subtitle">Web Application</span>
-                                    <h1 class="projects__title">Hospital Management System</h1>
-
-                                    <a href="Paste Project Link" class="projects__button">
-                                        Go to Project <i class="ri-arrow-right-line"></i>
-                                    </a>
-                                </div>
-                            </div>
-
-                            <!-- =====================Project 2 ==================== -->
-                            <div class="projects__content swiper-slide">
-                                <img src="assets/img/project2.jpg" alt="Projects image" class="projects__img">
-                                
-                                <div>
-                                    <span class="projects__subtitle">Web Application</span>
-                                    <h1 class="projects__title">Personal Portfolio</h1>
-
-                                    <a href="Paste Project Link" class="projects__button">
-                                        Go to Project <i class="ri-arrow-right-line"></i>
-                                    </a>
-                                </div>
-                            </div>
-
-                            <!-- =====================Project 3 ==================== -->
-                            <div class="projects__content swiper-slide">
-                                <img src="assets/img/project3.jpg" alt="Projects image" class="projects__img">
-                                
-                                <div>
-                                    <span class="projects__subtitle">Java Project</span>
-                                    <h1 class="projects__title">Management System</h1>
-
-                                    <a href="Paste Project Link" class="projects__button">
-                                        Go to Project <i class="ri-arrow-right-line"></i>
-                                    </a>
-                                </div>
-                            </div>
-
-                            <!-- =====================Project 4 ==================== -->
-                            <div class="projects__content swiper-slide">
-                                <img src="assets/img/project4.jpg" alt="Projects image" class="projects__img">
-                                
-                                <div>
-                                    <span class="projects__subtitle">Java Project</span>
-                                    <h1 class="projects__title">Management System</h1>
-
-                                    <a href="Paste Project Link" class="projects__button">
-                                        Go to Project <i class="ri-arrow-right-line"></i>
-                                    </a>
-                                </div>
-                            </div>
-
-                            <!-- =====================Project 5 ==================== -->
-                            <div class="projects__content swiper-slide">
-                                <img src="assets/img/project4.jpg" alt="Projects image" class="projects__img">
-                                
-                                <div>
-                                    <span class="projects__subtitle">Java Project</span>
-                                    <h1 class="projects__title">Management System</h1>
-
-                                    <a href="Paste Project Link" class="projects__button">
-                                        Go to Project <i class="ri-arrow-right-line"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Swiper Arrorw -->
-                        <div class="swiper-button-next">
-                            <i class="ri-arrow-right-s-line"></i>
-                        </div>
-                        <div class="swiper-button-prev">
-                            <i class="ri-arrow-left-s-line"></i>
-                        </div>
-
-                        <!-- Swiper Pagination -->
-                        <div class="swiper-pagination"></div>
-                    </div>
-                </div>
-            </section>
-
-            <!--==================== TESTIMONIAL ====================-->
-            <section class="testimonial section">
-                <h2 class="section__title">Testimonial</h2>
-                <span class="section__subtitle">My Team Member Saying</span>
-
-                <div class="container section__border">
-                    <div class="testimonial__container swiper">
-                        <div class="swiper-wrapper">
-                            <!-- ==================Testimonial 1 ===============-->
-                            <div class="testimonial__content swiper-slide">
-                                <p class="testimonial__description">
-                                    "Bhavik is not just a childhood friend, but a true gem in our lives. Nobody knows him better than Me, and we can confidently say that he is the most wonderful person one can ever come across. He has a heart of gold, always looking out for others, bringing smiles to everyone's faces, and lending a helping hand. His intelligence and compassion are unmatched. We are truly blessed to have him in our lives. May we always be grateful for his presence."  
-                                </p>
-
-                                <div>
-                                    <h3 class="testimonial__name">Palak Shrivastava</h3>
-                                    <span class="testimonial__subtitle">Lovely Friend &#x1F496;</span>
-                                </div>
-                            </div>
-                            <!-- ==================Testimonial 2 ===============-->
-                            <div class="testimonial__content swiper-slide">
-                                <p class="testimonial__description">
-                                    "Words fall short when describing our dear friend Bhavik. He is a rare treasure, someone who brings immense joy and care into our lives. His constant attentiveness and ability to make everyone around him laugh are truly remarkable. Bhavik's compassionate nature and unwavering willingness to help others make him an extraordinary human being. We consider ourselves fortunate and blessed to have him in our lives. Thank you, divine forces, for bringing Bhavik into our journey."
-                                </p>
-
-                                <div>
-                                    <h3 class="testimonial__name">Anuj Jhariya</h3>
-                                    <span class="testimonial__subtitle">Best Friend</span>
-                                </div>
-                            </div>
-                            <!-- ==================Testimonial 3 ===============-->
-                            <div class="testimonial__content swiper-slide">
-                                <p class="testimonial__description">
-                                    "Working alongside Bhavik on our Java and Python project for hospital bed facility availability was a pleasure. Bhavik's strength as a team player shines through their unwavering support and encouragement towards team members. Their ability to plan effectively and maintain a positive mindset is truly commendable."
-                                </p>
-
-                                <div>
-                                    <h3 class="testimonial__name">Yash Shelke</h3>
-                                    <span class="testimonial__subtitle">Sabka Bhai Sabki jaan</span>
-                                </div>
-                            </div>
-                            <!-- ==================Testimonial 4 ===============-->
-                            <div class="testimonial__content swiper-slide">
-                                <p class="testimonial__description">
-                                    "Bhavik's expertise as a Java developer and their Python skills were invaluable in creating a website for hospital bed facility availability. As a team player, Bhavik's support and encouragement were instrumental in driving our collective success. Their meticulous planning and positive outlook brought a sense of structure and motivation to the project."
-                                </p>
-
-                                <div>
-                                    <h3 class="testimonial__name">Bhavik Mundra & Aeshna Jain</h3>
-                                    <span class="testimonial__subtitle">Do dil mil rahe magar chupke chupke</span>
-                                </div>
-                            </div>
-                            <!-- ==================Testimonial 5 ===============-->
-                            <div class="testimonial__content swiper-slide">
-                                <p class="testimonial__description">
-                                    "Bhavik is an exceptional Java developer who skillfully created a Java project and a Python-based website for hospital bed facility availability. As a team player, Bhavik consistently uplifts and motivates the team, fostering a collaborative environment. Their meticulous planning ensures efficient execution, and their positive attitude brings out the best in everyone."
-                                </p>
-
-                                <div>
-                                    <h3 class="testimonial__name">Bhavikaa Darpe</h3>
-                                    <span class="testimonial__subtitle">Aeeeeaaeeeeeaeeee</span>
-                                </div>
-                            </div>
-                            <!-- ==================Testimonial 6 ===============-->
-                            <div class="testimonial__content swiper-slide">
-                                <p class="testimonial__description">
-                                    "Bhavik is not only a skilled Java developer but also a promising frontend developer. With intermediate knowledge in HTML, CSS, and JS, Bhavik has shown great enthusiasm for learning and growing in the field. Their eagerness to learn and collaborate makes them a valuable asset to any team. I am confident that Bhavik's dedication and excitement for learning will continue to propel them towards greater achievements in frontend development."
-                                </p>
-
-                                <div>
-                                    <h3 class="testimonial__name">Ansh Joshi</h3>
-                                    <span class="testimonial__subtitle">Gujju Boi</span>
-                                </div>
-                            </div>
-                            <!-- ==================Testimonial 7 ===============-->
-                            <div class="testimonial__content swiper-slide">
-                                <p class="testimonial__description">
-                                    "Bhavik possesses not only strong technical skills but also exceptional interpersonal skills. They excel in managing teams, motivating team members, and actively engaging in social work. Bhavik's passion for helping others and educating children about their future is truly admirable. Overall, Bhavik is not just a talented individual but also a genuinely good-hearted person."
-                                </p>
-
-                                <div>
-                                    <h3 class="testimonial__name">Devendra Singh Pawar</h3>
-                                    <span class="testimonial__subtitle">Rich Boiii</span>
-                                </div>
-                            </div>
-                            <!-- ==================Testimonial 8 ===============-->
-                            <div class="testimonial__content swiper-slide">
-                                <p class="testimonial__description">
-                                    Mind Blowing Person Never create a person like you. Very Intelligent, Handsome. &#x1F601;
-                                </p>
-
-                                <div>
-                                    <h3 class="testimonial__name">Swayam Bhagwan</h3>
-                                    <span class="testimonial__subtitle">Zivan Karta</span>
-                                </div>
-                            </div>
-                        </div>
-                        <!--   Swiper Arrorw   -->
-                        <div class="swiper-button-next">
-                            <i class="ri-arrow-right-s-line"></i>
-                        </div>
-                        <div class="swiper-button-prev">
-                            <i class="ri-arrow-left-s-line"></i>
-                        </div>
-
-                    </div>
-                </div>
-                <img src="assets/img/shape-wawes.svg" alt="testimonial image" class="testimonial__img">
-            </section>
-
-            <!--==================== CONTACT ====================-->
-            <section class="contact section" id="contact">
-                <h2 class="section__title">Contact Me</h2>
-                <span class="section__subtitle">Get in touch</span> 
-                
-                <div class="contact__container container grid section__border">
-                    <div class="contact__content">
-                        <h3 class="contact__title">
-                            <i class="ri-chat-3-line"></i> Talk to Me
+                    <div>
+                        <h3 class="home__info-title">
+                            Projects
                         </h3>
 
-                        <div class="contact__info">
-                            <div class="contact__data">
-                                <span class="contact__data-title">Email</span>
-                                <span class="contact__data-info">bhavik10sharma@gmail.com</span>
+                        <p class="home__info-description">
+                            4 Projects
+                        </p>
+                    </div>
+                    <div>
+                        <h3 class="home__info-title">
+                            Hobbies
+                        </h3>
+
+                        <p class="home__info-description">
+                            DANCE <br>
+                            COOKING <br>
+                        </p>
+                    </div>
+                </div>
+             </div>
+        </section>
+
+        <!--==================== SKILLS ====================-->
+        <section class="skills section" id="skills">
+            <h2 class="section__title">Skills</h2>
+            <span class="section__subtitle">My favorite Skills</span>
+
+            <div class="skills__container container grid section__border">
+                <!--=============== Skills 1 ================-->
+                <div class="skills__content">
+                    <h3 class="skills__title">
+                        <i class="ri-braces-line"></i> Frontend Developer
+                    </h3>
+
+                    <div class="skills__info">
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="assets/img/html-1.svg" alt="Skills Image">
                             </div>
 
-                            <div class="contact__data">
-                                <span class="contact__data-title">Whatsapp</span>
-                                <span class="contact__data-info">+91 7974398214</span>
-                                <a href="https://api.whatsapp.com/send?phone=917974398214&text=Hello Bhavik Sharma, more information!" target="_blank" class="contact__button">
-                                    Write Me <i class="ri-arrow-right-line"></i>
+                            <h3 class="skills__name">HTML</h3>
+                            <span class="skills__subtitle">Intermediate</span>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="assets/img/css-3.svg" alt="Skills Image">
+                            </div>
+
+                            <h3 class="skills__name">CSS</h3>
+                            <span class="skills__subtitle">Intermediate</span>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="assets/img/logo-javascript.svg" alt="Skills Image">
+                            </div>
+
+                            <h3 class="skills__name">JavaScript</h3>
+                            <span class="skills__subtitle">Beginner</span>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="assets/img/git-icon.svg" alt="Skills Image">
+                            </div>
+
+                            <h3 class="skills__name">Git</h3>
+                            <span class="skills__subtitle"></span>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="assets/img/Bootstrap_(front-end_framework)-Logo.wine.svg" alt="Skills Image">
+                            </div>
+
+                            <h3 class="skills__name">BootStrap</h3>
+                            <span class="skills__subtitle">Intermediate</span>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="assets/img/Tailwind.png" alt="Skills Image">
+                            </div>
+
+                            <h3 class="skills__name">Tailwind</h3>
+                            <span class="skills__subtitle">Beginner</span>
+                        </div>
+                    </div>
+                </div>
+                <!--=============== Skills 2 ================-->
+                <div class="skills__content">
+                    <h3 class="skills__title">
+                        <i class="ri-lightbulb-flash-line"></i> Backend Developer
+                    </h3>
+
+                    <div class="skills__info">
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="assets/img/c language.png" alt="Skills Image">
+                            </div>
+
+                            <h3 class="skills__name">C</h3>
+                            <span class="skills__subtitle">Intermediate</span>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="assets/img/cpp.png" alt="Skills Image">
+                            </div>
+
+                            <h3 class="skills__name">C++</h3>
+                            <span class="skills__subtitle">Intermediate</span>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="assets/img/java.PNG" alt="Skills Image">
+                            </div>
+
+                            <h3 class="skills__name">JAVA</h3>
+                            <span class="skills__subtitle">Core</span>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="assets/img/mysql.png" alt="Skills Image">
+                            </div>
+
+                            <h3 class="skills__name">MySQL</h3>
+                            <span class="skills__subtitle">Intermediate</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== QUALIFICATION ====================-->
+        <section class="qualification section" id="qualification">
+            <h2 class="section__title">Qualification</h2>
+            <span class="section__subtitle">Experience & Education</span>
+
+            <div class="qualification__container container grid section__border">
+                <!--========================= Qualification 1 =========================-->
+                <div class="qualification__content">
+                    <h3 class="qualification__title">
+                        <i class="ri-edit-2-line"></i> Education
+                    </h3>
+
+                    <div class="qualification__info">
+                        <div>
+                            <h3 class="qualification__name">
+                                B.tech in Computer Science Engineering
+                            </h3>
+                            <span class="qualification__place">Acropolis Institute of Technology and Research</span>
+                            <span class="qualification__year">2024</span>
+                            <span class="qualification__marks">Score: 7.9 CGPA (6th SEM)</span>
+                        </div>
+                    </div>
+
+                    <div class="qualification__info">
+                        <div>
+                            <h3 class="qualification__name">
+                                Higher Secondary School (12th)
+                            </h3>
+                            <span class="qualification__place">Bal Niketan MP-BOARD Indore M.P</span>
+                            <span class="qualification__year">2020</span>
+                            <span class="qualification__marks">Score: 75.2%</span>
+                        </div>
+                    </div>
+
+                    <div class="qualification__info">
+                        <div>
+                            <h3 class="qualification__name">
+                                Senior Secondary School (10th)
+                            </h3>
+                            <span class="qualification__place">Shree Vaishnav Academy CBSE Indore M.P</span>
+                            <span class="qualification__year">2018</span>
+                            <span class="qualification__marks">Score: 63%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <img src="assets/img/shape-circle.svg" alt="qualification image" class="qualification__image">
+        </section>
+
+        <!--==================== SERVICES ====================-->
+        <section class="services section" id="services">
+            <h2 class="section__title">Services</h2>
+            <span class="section__subtitle">What i offer</span>
+
+            <div class="services__container container grid section__border">
+                <div class="services__card">
+                    <i class="ri-layout-4-line"></i>
+
+                    <h2 class="services__title">
+                        Java Developer
+                    </h2>
+                    <p class="services__Description">
+                        Work on various Java Projects using JDBC, SERVLET and create various java web Application <br>
+
+                    </p>
+                    <div class="services__border">
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== PROJECTS ====================-->
+        <section class="projects section" id="Projects">
+            <h2 class="section__title">Projects</h2>
+            <span class="section__subtitle">Most recent Projects</span>
+
+            <div class="container section__border">
+                <div class="projects__container swiper">
+                    <div class="swiper-wrapper">
+                        <!-- =====================Project 1 ==================== -->
+                        <div class="projects__content swiper-slide">
+                            <img src="assets/img/project1.jpg" alt="Projects image" class="projects__img">
+                            
+                            <div>
+                                <span class="projects__subtitle">Web Application</span>
+                                <h1 class="projects__title">Hospital Management System</h1>
+
+                                <a href="Paste Project Link" class="projects__button">
+                                    Go to Project <i class="ri-arrow-right-line"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- =====================Project 2 ==================== -->
+                        <div class="projects__content swiper-slide">
+                            <img src="assets/img/project2.jpg" alt="Projects image" class="projects__img">
+                            
+                            <div>
+                                <span class="projects__subtitle">Web Application</span>
+                                <h1 class="projects__title">Personal Portfolio</h1>
+
+                                <a href="Paste Project Link" class="projects__button">
+                                    Go to Project <i class="ri-arrow-right-line"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- =====================Project 3 ==================== -->
+                        <div class="projects__content swiper-slide">
+                            <img src="assets/img/project3.jpg" alt="Projects image" class="projects__img">
+                            
+                            <div>
+                                <span class="projects__subtitle">Java Project</span>
+                                <h1 class="projects__title">Management System</h1>
+
+                                <a href="Paste Project Link" class="projects__button">
+                                    Go to Project <i class="ri-arrow-right-line"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- =====================Project 4 ==================== -->
+                        <div class="projects__content swiper-slide">
+                            <img src="assets/img/project4.jpg" alt="Projects image" class="projects__img">
+                            
+                            <div>
+                                <span class="projects__subtitle">Java Project</span>
+                                <h1 class="projects__title">Management System</h1>
+
+                                <a href="Paste Project Link" class="projects__button">
+                                    Go to Project <i class="ri-arrow-right-line"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- =====================Project 5 ==================== -->
+                        <div class="projects__content swiper-slide">
+                            <img src="assets/img/project4.jpg" alt="Projects image" class="projects__img">
+                            
+                            <div>
+                                <span class="projects__subtitle">Java Project</span>
+                                <h1 class="projects__title">Management System</h1>
+
+                                <a href="Paste Project Link" class="projects__button">
+                                    Go to Project <i class="ri-arrow-right-line"></i>
                                 </a>
                             </div>
                         </div>
                     </div>
+                    <!-- Swiper Arrorw -->
+                    <div class="swiper-button-next">
+                        <i class="ri-arrow-right-s-line"></i>
+                    </div>
+                    <div class="swiper-button-prev">
+                        <i class="ri-arrow-left-s-line"></i>
+                    </div>
 
-                    <div class="contact__content">
-                        <h3 class="contact__title">
-                            <i class="ri-chat-3-line"></i> Write me Your Project
-                        </h3>
-                        <form action="" class="contact__form" id="contact-form">
-                            <div class="contact__form-div">
-                                <label class="contact__form-tag">Name</label>
-                                <input type="text" name="user_name" required placeholder="Write Your Name" class="contact__form-input" id="contact-name">
+                    <!-- Swiper Pagination -->
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== TESTIMONIAL ====================-->
+        <section class="testimonial section">
+            <h2 class="section__title">Testimonial</h2>
+            <span class="section__subtitle">My Team Member Saying</span>
+
+            <div class="container section__border">
+                <div class="testimonial__container swiper">
+                    <div class="swiper-wrapper">
+                        <!-- ==================Testimonial 1 ===============-->
+                        <div class="testimonial__content swiper-slide">
+                            <p class="testimonial__description">
+                                "Bhavik's expertise as a Java developer and their Python skills were invaluable in creating a website for hospital bed facility availability. As a team player, Bhavik's support and encouragement were instrumental in driving our collective success. Their meticulous planning and positive outlook brought a sense of structure and motivation to the project."
+                            </p>
+
+                            <div>
+                                <h3 class="testimonial__name">Bhavik Mundra</h3>
+                                <span class="testimonial__subtitle">Team Member</span>
                             </div>
+                        </div>
+                        <!-- ==================Testimonial 2 ===============-->
+                        <div class="testimonial__content swiper-slide">
+                            <p class="testimonial__description">
+                                "Bhavik is an exceptional Java developer who skillfully created a Java project and a Python-based website for hospital bed facility availability. As a team player, Bhavik consistently uplifts and motivates the team, fostering a collaborative environment. Their meticulous planning ensures efficient execution, and their positive attitude brings out the best in everyone."
+                            </p>
 
-                            <div class="contact__form-div">
-                                <label class="contact__form-tag">Email</label>
-                                <input type="email" name="user_email" required placeholder="Enter Your Email" class="contact__form-input" id="contact-email">
+                            <div>
+                                <h3 class="testimonial__name">Bhavika Darpe</h3>
+                                <span class="testimonial__subtitle">Team Member</span>
                             </div>
+                        </div>
+                        <!-- ==================Testimonial 3 ===============-->
+                        <div class="testimonial__content swiper-slide">
+                            <p class="testimonial__description">
+                                "Bhavik is not only a skilled Java developer but also a promising frontend developer. With intermediate knowledge in HTML, CSS, and JS, Bhavik has shown great enthusiasm for learning and growing in the field. Their eagerness to learn and collaborate makes them a valuable asset to any team. I am confident that Bhavik's dedication and excitement for learning will continue to propel them towards greater achievements in frontend development."
+                            </p>
 
-                            <div class="contact__form-div contact__form-area">
-                                <label class="contact__form-tag">Projects</label>
-                                <textarea name="user_project" placeholder="Describe about your Project" id="contact-project" class="contact__form-input"></textarea>
+                            <div>
+                                <h3 class="testimonial__name">Ansh Joshi</h3>
+                                <span class="testimonial__subtitle">Team Member</span>
                             </div>
+                        </div>
+                    </div>
+                    <!--   Swiper Arrorw   -->
+                    <div class="swiper-button-next">
+                        <i class="ri-arrow-right-s-line"></i>
+                    </div>
+                    <div class="swiper-button-prev">
+                        <i class="ri-arrow-left-s-line"></i>
+                    </div>
 
-                            <p class="contact__message" id="contact__message"></p>
-                            <button type="submit" class="contact__button">
-                                Submit <i class="ri-arrow-right-up-line"></i>
-                            </button>
-                        </form>
-                        
+                </div>
+            </div>
+            <img src="assets/img/shape-wawes.svg" alt="testimonial image" class="testimonial__img">
+        </section>
+
+        <!--==================== CONTACT ====================-->
+        <section class="contact section" id="contact">
+            <h2 class="section__title">Contact Me</h2>
+            <span class="section__subtitle">Get in touch</span> 
+            
+            <div class="contact__container container grid section__border">
+                <div class="contact__content">
+                    <h3 class="contact__title">
+                        <i class="ri-chat-3-line"></i> Talk to Me
+                    </h3>
+
+                    <div class="contact__info">
+                        <div class="contact__data">
+                            <span class="contact__data-title">Email</span>
+                            <span class="contact__data-info">bhavik10sharma@gmail.com</span>
+                        </div>
+
+                        <div class="contact__data">
+                            <span class="contact__data-title">Whatsapp</span>
+                            <span class="contact__data-info">+91 7974398214</span>
+                            <a href="https://api.whatsapp.com/send?phone=917974398214&text=Hello Bhavik Sharma, more information!" target="_blank" class="contact__button">
+                                Write Me <i class="ri-arrow-right-line"></i>
+                            </a>
+                        </div>
                     </div>
                 </div>
-            </section>
-        </main>
 
-        <!--==================== FOOTER ====================-->
-        <footer class="footer">
-            <div class="footer__container container">
-                <h1 class="footer__title">Bhavik Sharma</h1>
-                <p>Frontend Developer</p>
+                <div class="contact__content">
+                    <h3 class="contact__title">
+                        <i class="ri-chat-3-line"></i> Write me Your Project
+                    </h3>
+                    <form action="" class="contact__form" id="contact-form">
+                        <div class="contact__form-div">
+                            <label class="contact__form-tag">Name</label>
+                            <input type="text" name="user_name" required placeholder="Write Your Name" class="contact__form-input" id="contact-name">
+                        </div>
 
-                <ul class="footer__list">
-                    <li>
-                        <a href="#home" class="footer__link">Home</a>
-                    </li>
+                        <div class="contact__form-div">
+                            <label class="contact__form-tag">Email</label>
+                            <input type="email" name="user_email" required placeholder="Enter Your Email" class="contact__form-input" id="contact-email">
+                        </div>
 
-                    <li>
-                        <a href="#Skills" class="footer__link">Skills</a>
-                    </li>
+                        <div class="contact__form-div contact__form-area">
+                            <label class="contact__form-tag">Projects</label>
+                            <textarea name="user_project" placeholder="Describe about your Project" id="contact-project" class="contact__form-input"></textarea>
+                        </div>
 
-                    <li>
-                        <a href="#projects" class="footer__link">Projects</a>
-                    </li>
-                </ul>
-
-                <ul class="footer__social">
-                    <a href="https://www.linkedin.com/in/bhavik-sharma-430b21244" target="_blank" class="footer__social-link">
-                        <i class="ri-linkedin-box-line"></i>
-                    </a>
-
-                    <a href="https://github.com/Bhavik-1025" target="_blank" class="footer__social-link">
-                        <i class="ri-github-fill"></i>
-                    </a>
-
-                    <a href="#" target="_blank" class="footer__social-link">
-                        <i class="ri-instagram-line"></i>
-                    </a>
-                </ul>
-
-                <span class="footer__copy">
-                    &#169; Copyright of Bhavik Sharma. All right reserved
-
-                </span>
+                        <p class="contact__message" id="contact__message"></p>
+                        <button type="submit" class="contact__button">
+                            Submit <i class="ri-arrow-right-up-line"></i>
+                        </button>
+                    </form>
+                    
+                </div>
             </div>
-        </footer>
+        </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+        <div class="footer__container container">
+            <h1 class="footer__title">Bhavik Sharma</h1>
+            <p>Frontend Developer</p>
+
+            <ul class="footer__list">
+                <li>
+                    <a href="#home" class="footer__link">Home</a>
+                </li>
+
+                <li>
+                    <a href="#Skills" class="footer__link">Skills</a>
+                </li>
+
+                <li>
+                    <a href="#projects" class="footer__link">Projects</a>
+                </li>
+            </ul>
+
+            <ul class="footer__social">
+                <a href="https://www.linkedin.com/in/bhavik-sharma-430b21244" target="_blank" class="footer__social-link">
+                    <i class="ri-linkedin-box-line"></i>
+                </a>
+
+                <a href="https://github.com/Bhavik-1025" target="_blank" class="footer__social-link">
+                    <i class="ri-github-fill"></i>
+                </a>
+
+                <a href="#" target="_blank" class="footer__social-link">
+                    <i class="ri-instagram-line"></i>
+                </a>
+            </ul>
+
+            <span class="footer__copy">
+                &#169; Copyright of Bhavik Sharma. All right reserved
+
+            </span>
+        </div>
+    </footer>
 
 
-        <!--========== SCROLL UP ==========-->
-        <a href="#" class="scrollup" id="scroll-up">
-            <i class="ri-arrow-up-line"></i>
-        </a>
+    <!--========== SCROLL UP ==========-->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="ri-arrow-up-line"></i>
+    </a>
 
-        <!--=============== SCROLLREVEAL ===============-->
-        <script src="assets/js/scrollreveal.min.js"></script>
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src="assets/js/scrollreveal.min.js"></script>
 
-        <!--=============== SWIPER JS ===============-->
-        <script src="assets/js/swiper-bundle.min.js"></script>
-        
-        <!--=============== EMAIL JS ===============-->
-        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <!--=============== SWIPER JS ===============-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    
+    <!--=============== EMAIL JS ===============-->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
 
 
-        <!--=============== MAIN JS ===============-->
-        <script src="assets/js/main.js"></script>
-    </body>
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+</body>
 </html>
